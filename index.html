@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Car Showcase</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <nav>
+    <h2>CarZone</h2>
+    <ul>
+      <li>Home</li>
+      <li>Cars</li>
+      <li>Contact</li>
+    </ul>
+  </nav>
+
+  <header>
+    <h1>Explore Premium Cars</h1>
+    <p>Experience speed, luxury and power</p>
+    <button onclick="scrollToCars()">View Cars</button>
+  </header>
+
+  <section id="cars">
+    <h2>Our Cars</h2>
+
+    <div class="car-list">
+      <div class="car">
+        <h3>BMW M4</h3>
+        <p>Sport | 503 HP</p>
+        <button onclick="showDetails('BMW M4')">Details</button>
+      </div>
+
+      <div class="car">
+        <h3>Audi R8</h3>
+        <p>Supercar | V10</p>
+        <button onclick="showDetails('Audi R8')">Details</button>
+      </div>
+
+      <div class="car">
+        <h3>Lamborghini Huracan</h3>
+        <p>Supercar | 631 HP</p>
+        <button onclick="showDetails('Lamborghini Huracan')">Details</button>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <p>© 2025 CarZone | Static Website</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
